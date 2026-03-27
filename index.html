@@ -1,0 +1,58 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ação de caes</title>
+</head>
+
+
+<body>
+
+<h2>Formulário de Adoção</h2>
+
+<form id="form">
+
+<input type="text" id="nome" placeholder="Nome completo">
+<input type="email" id="email" placeholder="Email">
+<input type="text" id="telefone" placeholder="Telefone">
+<input type="text" id="cpf" placeholder="CPF">
+<input type="number" id="idade" placeholder="Idade">
+<input type="text" id="cidade" placeholder="Cidade">
+
+<select id="moradia">
+<option value="">Tipo de moradia</option>
+<option value="casa">Casa</option>
+<option value="apartamento">Apartamento</option>
+</select>
+
+<select id="quintal">
+<option value="">Possui quintal?</option>
+<option value="sim">Sim</option>
+<option value="nao">Não</option>
+</select>
+
+<select id="pet">
+<option value="">Já teve pet?</option>
+<option value="sim">Sim</option>
+<option value="nao">Não</option>
+</select>
+
+<input type="number" id="horas" placeholder="quantas horas sozinho fica no dia">
+
+<textarea id="motivo" placeholder="porque voce quer adotar"></textarea>
+
+<label>
+<input type="checkbox" id="termo"> Aceito o termo
+</label>
+
+<button type="submit">Enviar</button>
+
+<p id="mensagem"></p>
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
